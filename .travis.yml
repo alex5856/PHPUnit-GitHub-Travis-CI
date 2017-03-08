@@ -4,4 +4,4 @@ php:
   - 5.5
 install:
   - composer install --no-dev --quiet
-script: phpunit ../../tests/whovianTest.php --coverage-text
+script: phpunit -c phpunit.xml --coverage-text
