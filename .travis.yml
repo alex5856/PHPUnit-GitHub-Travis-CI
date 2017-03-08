@@ -1,0 +1,7 @@
+language: php
+php:
+  - 5.4
+  - 5.5
+install:
+  - composer install --no-dev --quiet
+script: phpunit ../../tests/whovianTest.php --coverage-text
