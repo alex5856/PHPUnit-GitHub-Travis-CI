@@ -9,11 +9,11 @@ set :scm, :git
 #set :repo_url, 'https://github.com/user123/my_app.git'
 
 set :user, "alex5856" 
-#set :repo_pwd, "ng584584889"
+set :repo_pwd, "ng584584889"
 
-set :repo_url, "github.com:alex5856/php_unit_test.git"
+#set :repo_url, "github.com:alex5856/php_unit_test.git"
 
-#set :repo_url, "https://alex5856:#{fetch(:repo_pwd)}@github.com:alex5856/php_unit_test.git"
+set :repo_url, "https://alex5856:#{fetch(:repo_pwd)}@github.com:alex5856/php_unit_test.git"
 
 #set :repo_url, 'https://github.com/alex5856/php_unit_test.git'
 
