@@ -24,3 +24,4 @@ vendor/symfony/yaml/LICENSE
 vendor/webmozart/assert/LICENSE
 vendor/
 composer.lock
+config/
