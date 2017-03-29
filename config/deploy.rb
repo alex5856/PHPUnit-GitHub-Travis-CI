@@ -35,8 +35,6 @@ set :deploy_to, "/var/www/nginx/php_unit/"
 #set :ftp_host, ""
 #set :deploy_to, ""
 
-
-
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
