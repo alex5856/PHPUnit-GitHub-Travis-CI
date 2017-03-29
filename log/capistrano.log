@@ -84,3 +84,97 @@
   INFO ---------------------------------------------------------------------------
   INFO [fe8fd021] Running /usr/bin/env mkdir -p /tmp as alex5856@104.199.170.93
  DEBUG [fe8fd021] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-27 16:49:47 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ecccc10b] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [ecccc10b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-27 16:50:11 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ccfb14b2] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [ccfb14b2] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 10:37:08 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [8e9d198c] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [8e9d198c] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 10:51:58 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [0fdd15db] Running /usr/bin/env mkdir -p /tmp as alex5856@104.199.170.93
+ DEBUG [0fdd15db] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 10:52:30 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [b2aa17ad] Running /usr/bin/env mkdir -p /tmp as alex5856@104.199.170.93
+ DEBUG [b2aa17ad] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 10:52:58 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [9d1dbcf0] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [9d1dbcf0] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 10:53:34 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [25e29cd4] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [25e29cd4] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 11:43:48 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [f56d9dc9] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [f56d9dc9] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 11:44:20 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [b999c8c6] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [b999c8c6] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 15:04:11 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d7b87db5] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [d7b87db5] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 15:05:04 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [177fa0d6] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [177fa0d6] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 15:33:56 +0800 cap staging git:check
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 15:34:51 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [cda7f951] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [cda7f951] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 15:35:27 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 16:28:30 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [70d4eeae] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+  INFO [ea2dd13b] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [70d4eeae] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [ea2dd13b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 16:34:58 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [8fed0c36] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+  INFO [5113c564] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [8fed0c36] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [5113c564] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 23:10:44 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [33b0c5d1] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+  INFO [fa081ee2] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [33b0c5d1] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [fa081ee2] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-29 23:13:20 +0800 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [3470e785] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+  INFO [28df221f] Running /usr/bin/env mkdir -p /tmp as alexchen5856@104.199.170.93
+ DEBUG [3470e785] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [28df221f] Command: /usr/bin/env mkdir -p /tmp

@@ -7,7 +7,14 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-server "104.199.170.93", user: "alexchen5856", roles: %w{web}
+role :web, %w{alexchen5856@104.199.170.93}
+
+#set :repo_pwd, "ng584584889"
+
+#set :password, ask('Server password:', nil)
+#server '123.123.123.123', user: 'deploy', port: 22, password: fetch(:password), roles: %w{web app}
+
+server "104.199.170.93", user: "alexchen5856", port:22, roles: %w{web}
 
 # role-based syntax
 # ==================
@@ -20,7 +27,6 @@ server "104.199.170.93", user: "alexchen5856", roles: %w{web}
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
 
-role :web, %w{alexchen5856@104.199.170.93}
 
 # Configuration
 # =============
@@ -58,15 +64,25 @@ role :web, %w{alexchen5856@104.199.170.93}
 #     # password: "please use keys"
 #   }
 
-server "104.199.170.93",
-   user: "alex5856",
-   roles: %w{web},
-   ssh_options: {
-     user: "alex5856", # overrides user setting above
-     keys: %w(/home/alexchen5856/.ssh/id_rsa),
-     #keys: ["#{ENV['USERPROFILE']}/.ssh/key.id_rsa"]
-     #keys: %w(D:\www\ppk.ppk),
-     forward_agent: true,
-     auth_methods: %w(AAAAB3NzaC1yc2EAAAADAQABAAABAQDf059rPMEr1cb+xcjcZ46pUvdrpQwOruCyjSmOm2I615TmJOGHjPtlPXMHKHyzlSoBluKwuoHAEyczzQMEYIhxWony0A8oYc+9DWXv/K7MV/ez1dUPriWEOxUNK9h70rNZ6u6gvgVNGBG42HA/6h1E6gIgNEY5wv9zpHE5R3N9yf9IGs+qjNQvxvgsmxEYLSOj2xDSkNiYNBEiCN4Wdib/zVoQx3uHlaYI9xY+wLLWOKqA/eb36grL2JDKkSC9EUremYQXpJHwtxi0lTsjp0MqbmoCVPT5RcSPSdwT4rRWEoGlgF2muBK3QoBMa0EMtBY0VrKyps5ZODCkLvfiaQB1)
+#server "104.199.170.93",
+#   user: "alexchen5856",
+#   roles: %w{web},
+#   ssh_options: {
+#     user: "alexchen5856", # overrides user setting above
+#     keys: %w(/home/alexchen5856/.ssh/id_rsa),
+#     #keys: %w(D:\www\ppk.ppk),
+#     #forward_agent: true,
+#     #auth_methods: %w(AAAAB3NzaC1yc2EAAAADAQABAAABAQDf059rPMEr1cb+xcjcZ46pUvdrpQwOruCyjSmOm2I615TmJOGHjPtlPXMHKHyzlSoBluKwuoHAEyczzQMEYIhxWony0A8oYc+9DWXv/K7MV/ez1dUPriWEOxUNK9h70rNZ6u6gvgVNGBG42HA/6h1E6gIgNEY5wv9zpHE5R3N9yf9IGs+qjNQvxvgsmxEYLSOj2xDSkNiYNBEiCN4Wdib/zVoQx3uHlaYI9xY+wLLWOKqA/eb36grL2JDKkSC9EUremYQXpJHwtxi0lTsjp0MqbmoCVPT5RcSPSdwT4rRWEoGlgF2muBK3QoBMa0EMtBY0VrKyps5ZODCkLvfiaQB1)
      # password: "please use keys"
-   }
+#   }
+
+# SSH Options
+set :ssh_options, {
+    #keys: %w(/home/alexchen5856/.ssh/id_rsa),
+    keys: %w(D:\www\ppk.ppk),
+    forward_agent: true,
+    #auth_methods: %w(password),
+    auth_methods: %w(D:\www\pub.pub),
+    #password: 'user_deployers_password',
+    user: 'alexchen5856'
+}
