@@ -23,4 +23,5 @@ vendor/sebastian/version/LICENSE
 vendor/symfony/yaml/LICENSE
 vendor/webmozart/assert/LICENSE
 vendor/
+config/
 composer.lock
