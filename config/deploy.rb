@@ -8,8 +8,8 @@ set :application, "php_unit"
 set :scm, :git
 #set :repo_url, 'https://github.com/user123/my_app.git'
 
-set :user, "alex5856" 
-set :repo_pwd, "ng584584889"
+set :user, "" 
+set :repo_pwd, ""
 
 #set :repo_url, "github.com:alex5856/php_unit_test.git"
 
@@ -30,10 +30,10 @@ set :repo_url, "https://alex5856:#{fetch(:repo_pwd)}@github.com:alex5856/php_uni
 set :deploy_to, "/var/www/nginx/php_unit/"
 
 #FTP
-#set :login, "mobilefu"
-#set :password, "ng8449"
-#set :ftp_host, "mobile-fun.tw"
-#set :deploy_to, "/public_html/ac-studio.tw/php_unit"
+#set :login, ""
+#set :password, ""
+#set :ftp_host, ""
+#set :deploy_to, ""
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
