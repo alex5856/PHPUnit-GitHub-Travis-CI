@@ -9,8 +9,6 @@
 
 role :web, %w{alexchen5856@104.199.170.93}
 
-#set :repo_pwd, "ng584584889"
-
 #set :password, ask('Server password:', nil)
 #server '123.123.123.123', user: 'deploy', port: 22, password: fetch(:password), roles: %w{web app}
 
@@ -79,10 +77,8 @@ server "104.199.170.93", user: "alexchen5856", port:22, roles: %w{web}
 # SSH Options
 set :ssh_options, {
     #keys: %w(/home/alexchen5856/.ssh/id_rsa),
-    keys: %w(D:\www\ppk.ppk),
     forward_agent: true,
     #auth_methods: %w(password),
-    auth_methods: %w(D:\www\pub.pub),
     #password: 'user_deployers_password',
     user: 'alexchen5856'
 }
