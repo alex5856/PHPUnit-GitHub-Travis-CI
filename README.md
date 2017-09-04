@@ -14,7 +14,7 @@ PHPUnit & GitHub & Travis CI 整合自動化測試
   1. Windows Installer
   2. Command-line Installer
 
-### STEP 2 - 安裝 PHPUnit ：
+### STEP 2 - 安裝 PHPUnit
 + 官網安裝說明 : https://phpunit.de/manual/current/en/installation.html
 +  Composer 安裝 PHPUint
 
@@ -22,7 +22,7 @@ PHPUnit & GitHub & Travis CI 整合自動化測試
 $ composer require --dev phpunit/phpunit
 ```
 
-### STEP 3 - 執行測試：
+### STEP 3 - 執行測試
 
 + 將目錄切換至`專案根目錄`
 + command-line：
@@ -31,7 +31,7 @@ $ composer require --dev phpunit/phpunit
  ```
 + 執行測試完成後，將自動產生 `coverage`資料夾與檔案
 
-### SETP 4 - 加入 Travis CI 持續測試：
+### SETP 4 - 加入 Travis CI 持續測試
 
 1. 需先至 https://travis-ci.org/ 註冊帳號，透過 OAuth 連結你的 GitHub 帳號
 2. 在登入帳號之後 ，將會列出在 GitHub 上的 Repository，選擇你要持續測試的專案
