@@ -5,7 +5,7 @@ class Whovian
      * @var string
      */
     protected $favoriteDoctor;
-    
+
     /**
      * Constructor
      * @param  string $favoriteDoctor
@@ -14,7 +14,7 @@ class Whovian
     {
         $this->favoriteDoctor = (string)$favoriteDoctor;
     }
-    
+
     /**
      * Say
      * @return string
@@ -23,7 +23,7 @@ class Whovian
     {
         return 'The best doctor is ' . $this->favoriteDoctor;
     }
-    
+
     /**
      * Respond to
      * @param  string $input
