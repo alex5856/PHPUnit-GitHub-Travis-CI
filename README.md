@@ -27,7 +27,7 @@ $ composer require --dev phpunit/phpunit
 + 將目錄切換至`專案根目錄`
 + command-line：
  ```sh
-  $ phpunit -c phpunit.xml
+  $ phpunit -c phpunit.xml --coverage-html coverage
  ```
 + 執行測試完成後，將自動產生 `coverage`資料夾與檔案
 

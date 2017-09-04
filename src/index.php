@@ -1,8 +1,7 @@
 <?
-    require_once 'whovian.php';
+    require_once 'test_class.php';
+    $test = new Test('Alex');
+    echo $test->hello(). '<br>';
 
-    $whovian = new Whovian('David Tennant');
-    echo $whovian->say();
-
-    $opinion = 'David Tennant is the best doctor, period';
-    echo $whovian->respondTo($opinion);
+    $value = 'Alex';
+    echo $test->resTo($value);
