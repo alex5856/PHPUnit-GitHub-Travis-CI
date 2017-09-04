@@ -25,3 +25,5 @@ vendor/webmozart/assert/LICENSE
 vendor/
 composer.lock
 config/
+log/
+Capfile
