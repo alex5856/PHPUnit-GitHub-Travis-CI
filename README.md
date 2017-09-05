@@ -1,5 +1,8 @@
-PHPUnit & GitHub & Travis CI 整合自動化測試
+PHPUnit & Travis CI 自動化測試
 ============================
+
+此專案為 PHPUnit & Travis CI 持續整合測試範例
+
 ## 需求
 + Composer
 + PHPUint

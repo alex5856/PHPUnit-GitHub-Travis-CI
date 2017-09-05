@@ -18,7 +18,7 @@ class testTest extends PHPUnit_Framework_TestCase
     {
         $t = new Test('Alex');
         $val = 'Alex';
-        $this->assertEquals('Yes', $t->resTo($val));
+        $this->assertEquals('No', $t->resTo($val));
     }
 
 }
